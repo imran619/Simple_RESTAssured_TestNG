@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="WebServiceTestSuite" duration-ms="24843" started-at="2019-08-14T07:25:12Z" finished-at="2019-08-14T07:25:37Z">
+    <groups>
+    </groups>
+    <test name="RESTAPITest" duration-ms="24843" started-at="2019-08-14T07:25:12Z" finished-at="2019-08-14T07:25:37Z">
+      <class name="test.TestGETRequest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.TestGETRequest@73ad2d6]" name="setup" is-config="true" duration-ms="16" started-at="2019-08-14T07:25:12Z" finished-at="2019-08-14T07:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testGETUserDetails()[pri:0, instance:test.TestGETRequest@73ad2d6]" name="testGETUserDetails" duration-ms="8907" started-at="2019-08-14T07:25:12Z" finished-at="2019-08-14T07:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGETUserDetails -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.TestGETRequest@73ad2d6]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-08-14T07:25:21Z" finished-at="2019-08-14T07:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TestGETRequest -->
+      <class name="test.TestDELETERequest">
+        <test-method status="PASS" signature="testDELETERequestDetails()[pri:0, instance:test.TestDELETERequest@5700d6b1]" name="testDELETERequestDetails" duration-ms="4453" started-at="2019-08-14T07:25:32Z" finished-at="2019-08-14T07:25:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDELETERequestDetails -->
+      </class> <!-- test.TestDELETERequest -->
+      <class name="test.TestPOSTRequest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.TestPOSTRequest@7085bdee]" name="setup" is-config="true" duration-ms="0" started-at="2019-08-14T07:25:21Z" finished-at="2019-08-14T07:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testPOSTRequestDetails()[pri:0, instance:test.TestPOSTRequest@7085bdee]" name="testPOSTRequestDetails" duration-ms="5751" started-at="2019-08-14T07:25:21Z" finished-at="2019-08-14T07:25:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPOSTRequestDetails -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.TestPOSTRequest@7085bdee]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-14T07:25:27Z" finished-at="2019-08-14T07:25:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TestPOSTRequest -->
+      <class name="test.TestPUTRequest">
+        <test-method status="PASS" signature="testPUTRequestDetails()[pri:0, instance:test.TestPUTRequest@1ce92674]" name="testPUTRequestDetails" duration-ms="5675" started-at="2019-08-14T07:25:27Z" finished-at="2019-08-14T07:25:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPUTRequestDetails -->
+      </class> <!-- test.TestPUTRequest -->
+    </test> <!-- RESTAPITest -->
+  </suite> <!-- WebServiceTestSuite -->
+</testng-results>
